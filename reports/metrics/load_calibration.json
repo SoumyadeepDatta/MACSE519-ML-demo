@@ -1,0 +1,7 @@
+{
+  "factor_mendeley_to_kaggle": 0.9923210295579733,
+  "overlap_hours_A_B": 2903,
+  "factor_scada_to_kaggle": 0.9912159756426763,
+  "overlap_hours_B_C": 5392,
+  "psp_to_hourly_peak_ratio": 0.9880306217885867
+}

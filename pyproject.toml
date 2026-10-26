@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "heatwave_peak"
+version = "1.0.0"
+description = "Heatwave-conditioned peak electricity demand forecasting for India with an asymmetric-loss LightGBM"
+requires-python = ">=3.10"
+authors = [
+    { name = "Soumyadeep Datta" },
+    { name = "Debrup Sarkar" },
+    { name = "Kaushiki Mandal" },
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

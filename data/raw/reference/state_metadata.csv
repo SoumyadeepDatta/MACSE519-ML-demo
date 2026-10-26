@@ -1,0 +1,34 @@
+state,nldc_names,grid_region,load_centre,lat,lon
+Delhi,Delhi,NR,New Delhi,28.61,77.21
+Haryana,Haryana,NR,Rohtak,28.89,76.61
+Punjab,Punjab,NR,Ludhiana,30.9,75.85
+Rajasthan,Rajasthan,NR,Jaipur,26.91,75.79
+Uttar Pradesh,UP,NR,Lucknow,26.85,80.95
+Uttarakhand,Uttarakhand,NR,Dehradun,30.32,78.03
+Himachal Pradesh,HP,NR,Shimla,31.1,77.17
+Jammu and Kashmir,J&K(UT) & Ladakh(UT),NR,Jammu,32.73,74.86
+Chandigarh,Chandigarh,NR,Chandigarh,30.73,76.78
+Gujarat,Gujarat,WR,Ahmedabad,23.02,72.57
+Maharashtra,Maharashtra,WR,Pune,18.52,73.86
+Madhya Pradesh,MP,WR,Bhopal,23.26,77.41
+Chhattisgarh,Chhattisgarh,WR,Raipur,21.25,81.63
+Goa,Goa,WR,Panaji,15.5,73.83
+The Dadra and Nagar Haveli and Daman and Diu,DD|DNH|DNHDDPDCL,WR,Silvassa,20.27,73.01
+Andhra Pradesh,Andhra Pradesh,SR,Vijayawada,16.51,80.65
+Telangana,Telangana,SR,Hyderabad,17.39,78.49
+Karnataka,Karnataka,SR,Bengaluru,12.97,77.59
+Tamil Nadu,Tamil Nadu,SR,Chennai,13.08,80.27
+Kerala,Kerala,SR,Kochi,9.93,76.27
+Puducherry,Puducherry,SR,Puducherry,11.94,79.81
+Bihar,Bihar,ER,Patna,25.59,85.14
+Jharkhand,Jharkhand|DVC,ER,Ranchi,23.34,85.31
+Odisha,Odisha,ER,Bhubaneswar,20.3,85.82
+West Bengal,West Bengal,ER,Kolkata,22.57,88.36
+Sikkim,Sikkim,ER,Gangtok,27.33,88.61
+Assam,Assam,NER,Guwahati,26.14,91.74
+Meghalaya,Meghalaya,NER,Shillong,25.58,91.89
+Tripura,Tripura,NER,Agartala,23.83,91.29
+Manipur,Manipur,NER,Imphal,24.82,93.94
+Mizoram,Mizoram,NER,Aizawl,23.73,92.72
+Nagaland,Nagaland,NER,Kohima,25.67,94.11
+Arunachal Pradesh,Arunachal Pradesh,NER,Itanagar,27.08,93.61

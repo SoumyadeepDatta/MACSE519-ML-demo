@@ -1,0 +1,13 @@
+gap / claim,verdict,evidence
+G1 symmetric losses ignore costlier under-forecasts,SUPPORTED,"HALO vs L2, OOS folds: expected shortfall -536 MW/day (p=0.000); ordinary MAE also rises (stated cost)"
+G2 rare heatwave regimes poorly forecast,SUPPORTED,"heat/critical under-forecast rate -13.2 pts vs L2, OOS (p=0.000)"
+G3 heatwave as explicit conditioning regime,PARTIALLY SUPPORTED,"via the LOSS: heat term adds -300 MW heatwave-day shortfall change beyond scarcity, OOS (p=0.000); regime FEATURES add nothing (E3)"
+G4 custom asymmetric objective inside boosting,SUPPORTED,"vs pinball at equal ordinary accuracy, OOS: -296 MW expected shortfall (p=0.000)"
+G5 asymmetry adapted to heat severity / grid state,SUPPORTED,"vs constant-asymmetry LINEX at equal accuracy, OOS: -227 MW (p=0.000)"
+G6 MAPE/RMSE hide peak under-forecasting,SUPPORTED,"Kendall tau(MAPE ranking, shortfall ranking) = -1.00"
+G7 heat accumulation as engineered features,PARTIALLY SUPPORTED,removing accumulation features: HALO shortfall +55 MW (p=0.006); no effect for L2; humidity: none
+"G8 Indian grid, rapidly growing cooling load",SUPPORTED (scope),"All-India 2019-2025, IMD official heatwave rules, record 2024 heatwave included"
+"G9 lightweight, interpretable models",PARTIALLY SUPPORTED,"~2 s training, <1 MB, TreeSHAP; no user study"
+G10 asymmetric point vs probabilistic methods,PARTIALLY SUPPORTED,compared with pinball (quantile) curves; conformal methods not tested
+G11 distribution shift,PARTIALLY SUPPORTED,growth-driven shift handled (E5); climate-scenario shift not tested
+(design) data-driven zone clustering helps,NOT SUPPORTED,national-average weather performs as well (E4)
